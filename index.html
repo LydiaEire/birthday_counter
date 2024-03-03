@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Дни до дня рождения</title>
+    <script src="script.js"></script>
+    <style>
+        .error-message {
+        color: red;
+        font-size: 14px;
+        } 
+    </style>
+</head>
+<body>
+    <h1>Дни до дня рождения</h1>
+    <label for="birthday">Выберите дату рождения:</label>
+    <input type="date" id="birthday" required>
+    <button onclick="calculateDays()">Рассчитать</button>
+    <p class="error-message" id="error-message"></p>
+    <p id="result"></p>
+</body>
+</html>
